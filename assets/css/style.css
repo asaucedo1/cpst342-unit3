@@ -1,0 +1,199 @@
+h1 {
+  background-color: lightsteelblue;
+}
+
+h2 {
+  background-color: lightsteelblue;
+}
+
+img, hero {
+  width: 100%;
+  padding: 10px 5px 10px 5px;
+  box-sizing: border-box;
+}
+
+a {
+  text-size: 2rem;
+  color: black;
+  text-decoration: underline;
+  text-underline: black;
+  background-color: #66a0c4;
+}
+ahover {
+  color: crimson;
+  text-decoration: underline;
+  text-underline: crimson;
+}
+
+form {
+  font: 10pt "Times New Roman";
+  background-color: lightskyblue;
+  padding: 10px;
+}
+
+label {
+  width: 100px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 8px;
+}
+
+input[type=text], select {
+  width: 325px;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+input[type=phone], select {
+  width: 325px;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+input[type=email], select {
+  width: 325px;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+input[type=address], select {
+  width: 325px;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  color: white;
+  width: 75px;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #66a0c4;
+}
+input[type=submit]:hover {
+  width: 100px;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background-color: #07d;
+}
+
+footer {
+  width: 100%;
+  background-color: orange;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+body {
+  background-color: #dfedff;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.hero {
+  align-content: center;
+}
+.hero#banner {
+  align-content: center;
+}
+
+#navLinks {
+  font-size: 100%;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  alignment: center;
+  child-align: middle;
+}
+
+.header {
+  text-align: center;
+  -webkit-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -ms-text-size-adjust: auto;
+}
+
+#footer {
+  text-align: center;
+  span: 100%;
+}
+
+#home {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+  padding: 5px;
+}
+
+#events {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+  padding: 5px;
+}
+
+#signUp {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+  padding: 5px;
+}
+
+#map {
+  text-align: center;
+  align-content: center;
+  background-color: #66a0c4;
+  border-color: black;
+  border-style: inset;
+  padding: 5px;
+}
+
+#formHeader {
+  font-weight: bold;
+  font-size: 20px;
+  -ms-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+  -webkit-text-size-adjust: auto;
+}
+
+.row {
+  padding: 20px;
+}
+
+.body {
+  padding: 20px;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */
